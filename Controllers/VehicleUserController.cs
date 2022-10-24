@@ -11,8 +11,6 @@ namespace Fuel_Helper_API.Controllers
     {
         private readonly VehicleUserRepository userRepository;
 
-
-
         public VehicleUserController(VehicleUserRepository userRepository)
         {
             this.userRepository = userRepository;
