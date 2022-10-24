@@ -12,8 +12,8 @@ builder.Services.AddSwaggerGen();
 
 builder.Services.AddScoped<VehicleUserRepository, VehicleUserService>();
 builder.Services.AddScoped<ReFillStationRepository, ReFillStationService>();
-
-
+builder.Services.AddScoped<QueueInfoRepository, QueueInfoService>();
+builder.Services.AddScoped<FuelStatusManagementRepository, FuelStatusManagementService>();
 
 var app = builder.Build();
 

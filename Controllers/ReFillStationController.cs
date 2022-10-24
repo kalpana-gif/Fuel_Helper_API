@@ -8,9 +8,9 @@ using System.Reflection.Metadata;
 
 namespace Fuel_Helper_API.Controllers
 {
-   //add refillig station to system 
+    //add refillig station to system 
     [ApiController]
-    [Route("[controller]")]
+    [Route("/refillstation/")]
     public class ReFillStationController : ControllerBase
     {
         private readonly ReFillStationRepository refillstationrepository;

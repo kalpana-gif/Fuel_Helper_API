@@ -7,7 +7,7 @@ namespace Fuel_Helper_API.Controllers
 {
     //add vehicle user  to system 
     [ApiController]
-    [Route("[controller]")]
+    [Route("/vehicleuser/")]
     public class VehicleUserController : ControllerBase
     {
         private readonly VehicleUserRepository userRepository;
